@@ -1,12 +1,16 @@
 {
   "name": "fullstackreact",
   "version": "1.0.0",
-  "description": "MERN Stack application with OAUTH",
+  "description": "MERN Stack application with OAUTH - Stephen Grider course",
   "main": "index.js",
+  "engines": {
+    "node": "8.2.1",
+    "npm": "5.0.3"
+  }, 
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "",
+  "author": "Daniel Youberg",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.3"
